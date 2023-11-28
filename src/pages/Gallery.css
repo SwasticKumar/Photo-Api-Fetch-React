@@ -1,0 +1,51 @@
+/* Gallery.css */
+.card {
+  background-color: #E2D1C3;
+  border: 1px solid #ced4da;
+  margin-bottom: 10px;
+  transition: box-shadow 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 0 30px rgba(234, 22, 22, 0.3);
+}
+
+.card img {
+  max-width: auto;
+  max-height: auto;
+  object-fit: cover;
+  border-radius: 10px !important;
+}
+.card-img-top {
+  padding: 20px;
+  border-radius: 10px;
+}
+.bg-f {
+
+  background-position: 0 0;
+  background-image: linear-gradient(260deg, #FFECD2,#FCB69F,#FDFCFB, #FCB69F,#FFECD2);
+  background-size: 300%;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-name: menugradientanimation;
+}
+@keyframes menugradientanimation {
+  0% {
+    background-position: 0 0;
+  }
+  25% {
+    background-position: 50% 0;
+  }
+  50% {
+    background-position: 90% 0;
+  }
+  60% {
+    background-position: 60%;
+  }
+  80% {
+    background-position: 40%;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
